@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd)/files:/project/HotKnots_v2.0/bin/files hotknots $@

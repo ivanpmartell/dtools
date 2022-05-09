@@ -50,5 +50,21 @@ Example usage
 ```./Knotty/run.sh GCAACGAUGACAUACAUCGCUAGUCGACGC > files/outputfile.txt```
 
 ## IPknot
+Install by running
+```./install_ipknot.sh```
+
+Run the program (remember to pass arguments)
+```./Ipknot/run.sh```
+
+Example usage
+```./Ipknot/run.sh files/ipknot_example.txt > files/outputfile.txt```
 
 ## HotKnots
+Install by running
+```./install_hotknots.sh```
+
+Run the program (remember to pass arguments)
+```./Hotknots/run.sh```
+
+Example usage
+```./Hotknots/run.sh -I files/hotknots_example > files/outputfile.txt```
