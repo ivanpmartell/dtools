@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd)/files:/project/SPOT-RNA/files spotrna $@

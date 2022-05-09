@@ -68,3 +68,13 @@ Run the program (remember to pass arguments)
 
 Example usage
 ```./Hotknots/run.sh -I files/hotknots_example > files/outputfile.txt```
+
+## SPOT-RNA
+Install by running
+```./install_spot-rna.sh```
+
+Run the program (remember to pass arguments)
+```./Spot-Rna/run.sh```
+
+Example usage
+```./Spot-Rna/run.sh --inputs files/spotrna_example.txt --outputs 'files/' --cpu 32```
