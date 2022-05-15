@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp packages_script.sh Dinoknot/
 cd Dinoknot
+cp ../packages_script.sh ./
 docker build -t dinoknot .
 rm packages_script.sh

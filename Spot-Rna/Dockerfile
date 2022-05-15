@@ -11,10 +11,6 @@ RUN echo "Installing required packages" \
          && chmod +x /packages_script.sh \
          && bash /packages_script.sh
 
-RUN echo "Installing python3" \
-         && python3 -V \
-         && pip3 -V
-
 RUN echo "Installing SPOT-RNA" \
          && git clone https://github.com/jaswindersingh2/SPOT-RNA.git \
          && cd SPOT-RNA \

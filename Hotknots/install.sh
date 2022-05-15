@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp packages_script.sh Hotknots/
 cd Hotknots
+cp ../packages_script.sh ./
 docker build -t hotknots .
 rm packages_script.sh

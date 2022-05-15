@@ -1,5 +1,5 @@
 # dtools
-Multitude of programs made to run through docker (No Setup Required)
+Multitude of rna structure programs made to run through docker (No Setup Required)
 
 ## Prerequisites
 Make sure you have docker installed. We provide an installation script for ubuntu 20.04.
@@ -11,7 +11,7 @@ Always use the ```files``` folder to pass files to and from programs.
 
 ## DinoKnot
 Install by running
-```./install_dinoknot.sh```
+```./Dinoknot/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Dinoknot/run.sh```
@@ -21,7 +21,7 @@ Example usage
 
 ## HFold
 Install by running
-```./install_hfold.sh```
+```./Hfold/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Hfold/run.sh```
@@ -31,7 +31,7 @@ Example usage
 
 ## Iterative HFold
 Install by running
-```./install_iterative-hfold.sh```
+```./Iterative-Hfold/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Iterative-Hfold/run.sh```
@@ -41,7 +41,7 @@ Example usage
 
 ## Knotty
 Install by running
-```./install_knotty.sh```
+```./Knotty/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Knotty/run.sh```
@@ -51,7 +51,7 @@ Example usage
 
 ## IPknot
 Install by running
-```./install_ipknot.sh```
+```./Ipknot/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Ipknot/run.sh```
@@ -61,7 +61,7 @@ Example usage
 
 ## HotKnots
 Install by running
-```./install_hotknots.sh```
+```./Hotknots/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Hotknots/run.sh```
@@ -71,7 +71,7 @@ Example usage
 
 ## SPOT-RNA
 Install by running
-```./install_spot-rna.sh```
+```./Spot-Rna/install.sh```
 
 Run the program (remember to pass arguments)
 ```./Spot-Rna/run.sh```
